@@ -21,5 +21,9 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    'space-before-blocks': [2, 'always'],
+    semi: ['error', 'always'],
+    eqeqeq: [2, 'allow-null'],
+    'prettier/prettier': ['error', { endOfLine: 'auto', useTabs: false }],
   },
 };
